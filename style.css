@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://46781.cdn.simplo7.net/static/46781/sku/quadros-por-tema-cidades-quadro-retangular-detalhes-de-nova-iorque-pintura--p-1600801590150.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: left;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #e3e4e8;
+    /*margin: 0 0 5px;*/
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+    background-color: #2c303a;
+    border-radius: 10px;
+  }
+  
+  .page-subtitle {
+    color: #e3e4e8;
+    margin: 0 auto;
+    width: 700px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: #2c303a;
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+.outPut {
+    text-align: center;
+    color: #e3e4e8;
+    margin: 0 auto;
+    width: 700px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: #2c303a;
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+
+form /*{
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    background-color: #d8e2e4;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+
+
+.botoesResp{
+  justify-content: center;
+  display: flex;
+}
+
+.botoesResp button{
+  margin: 1%;
+  min-width: 120px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
