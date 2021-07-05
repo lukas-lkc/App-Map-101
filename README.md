@@ -8,8 +8,8 @@ https://codepen.io/lukas_lkc/pen/wvdKbxv
 
 App Map 101 é uma aplicação de teste prático #KlickTeam
 
-Um aplicativo que visa encontrar a melhor rota para o seu cliente a partir de qualquer localidade. 
-Os clientes podem escolher pegar caminhos personalizados com paradas.
+Um aplicativo que visa encontrar a melhor rota para o seu cliente a partir de qualquer localidade (ps. no momento em localidades determinaas). 
+Os clientes podem escolher pegar caminhos personalizados com uma parada.
 
 ## Layout web
 ![Web 1](https://github.com/lukas-lkc/App-Map-101/blob/main/assets/Screenshot_2.png?raw=true)
