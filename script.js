@@ -1,8 +1,5 @@
-//var para iniciar o código
-
 var iniciar = 0;
 var inCaseStop = 0;
-//iniciar = parseInt(prompt('Deseja iniciar o código? \nDigite 1 para Sim ou 2 para não'))
 
 //StartintPoint eixos X e Y
 var spX = 0;
@@ -20,7 +17,6 @@ var startingPoint = 0;
 var homeSt = ""
 var destinyPoint = 0
 var destinySt = ""
-
 var stopSt = 0
 var stopStr = ""
 
@@ -95,7 +91,8 @@ function start(){
     homeSt = ('R9-'+'('+spX+','+spY+')');
   break;
   default:
-    //alert('Desculpe, não encontrei.')
+      
+    //caso não seja nenhum dos casos acima, imprime no html
     document.getElementById("out").innerHTML="Desculpe, não encontrei.";
     iniciar = 0
     startingPoint = 0  
@@ -103,7 +100,7 @@ function start(){
   
    
    
-//se o n° da rua de partida existir, recebe o n° de destno   
+//se o n° da rua de partida existir (estiver dentro das opções de 1 à 9, recebe o n° de destino   
   if (startingPoint >= 1 && startingPoint < 10){
   
     destinyPoint = parseInt(prompt("Informe o número da rua de Destino: "))
@@ -156,13 +153,11 @@ function start(){
     destinySt = ('R9-'+'('+dtX+','+dtY+')');
   break;
   default:
-    console.log('Desculpe, não encontrei.')
+    //caso não seja nenhum dos casos acima, imprime no html
     document.getElementById("out").innerHTML= "Desculpe, não encontrei.";
       
     iniciar = 0
     destinyPoint = 0
-    console.log(iniciar)
-    console.log(destinyPoint)
   } 
    
   
@@ -229,14 +224,11 @@ function temParada(){
     document.getElementById("out").innerHTML="Desculpe, não encontrei.";
     iniciar = 0
     stopSt = 0
-    console.log(iniciar)
-    console.log(destinyPoint)
    
     }  
   
    
-
-//daqui pra baixo é um ninho de if
+//resultado se houver parada
 //início, parada, destino:     
 //i>p>d ou i<p<d ou i<p>d ou i>p<d
       if (dtX + spX + sTopX > dtY + spY + sTopX && inCaseStop == 1){
