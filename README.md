@@ -51,6 +51,6 @@ O resultado será mostrado na tela, no campo abaixo da lista das ruas
 
 # Autor
 
-Lucas Carvalho Pixão
+Lucas Carvalho Paixão
 
 https://www.linkedin.com/in/lucas-carvalho-1a88ba1b3/
