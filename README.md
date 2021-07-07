@@ -29,7 +29,7 @@ Os clientes podem escolher pegar caminhos personalizados com uma parada.
 https://codepen.io/lukas_lkc/pen/wvdKbxv
 
 # executar o projeto
-clique no botão "Clique aqui"
+clique no botão "Começar?"
 Digite 1 para iniciar a aplicação
 Informe o Número da rua de Partida 
 As opções disponíveis estão na lista "Número das ruas e suas coordenadas"
